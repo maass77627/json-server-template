@@ -5,33 +5,60 @@
       "firstName": "Ben",
       "lastName": "Smith",
       "parentName": "John",
-      "points": 23,
-      "image": "https://placehold.co/150x150.jpg"
-      }
-    ,
+      "points": 53,
+      "image": "lama.png"
+    },
     {
       "id": 2,
       "firstName": "Jill",
       "lastName": "Lee",
       "parentName": "Betty",
-      "points": 12,
-      "image": "https://placehold.co/150x150.jpg"
+      "points": 55,
+      "image": "unicorn.png",
+      "student": {
+        "points": 13
       }
-    
+    },
+    {
+      "firstName": "Suzy",
+      "lastName": "Smith",
+      "image": "monkey.png",
+      "points": 15,
+      "id": 7
+    },
+    {
+      "firstName": "sarah",
+      "lastName": "long",
+      "image": "fox.png",
+      "points": 21,
+      "id": 11
+    }
   ],
-
   "parents": [
     {
       "id": 1,
       "name": "John",
       "phone": 5125552954
-      }
-    ,
+    },
     {
       "id": 2,
       "name": "Betty",
       "phone": 5125557865
-       }
-    
+    },
+    {
+      "id": 3,
+      "name": "Ben",
+      "phone": 5125554365
+    },
+    {
+      "name": "John",
+      "phone": "5125557634",
+      "id": 4
+    },
+    {
+      "name": "Ted",
+      "phone": "5125557889",
+      "id": 5
+    }
   ]
 }

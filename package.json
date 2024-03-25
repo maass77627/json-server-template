@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "PORT=3006 node server.js",
+    "dev": "PORT=3006 nodemon server.js",
     "seed": "cp db/seeds.json db/db.json"
   },
   "dependencies": {
