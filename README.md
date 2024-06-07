@@ -5,7 +5,7 @@
 Fork and clone this repo. Then install the dependencies by running:
 
 ```sh
-npm install
+npm install   to start run npm start
 ```
 
 ## Seeding Data
